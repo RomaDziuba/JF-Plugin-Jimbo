@@ -21,7 +21,6 @@ class JimboPlugin extends ObjectJimboPlugin
             $jimbo->setOption('handlers_path', $handlersPath);
         }
         
-        $sessionData['id_dealer'] = $authData['id_dealer'];
         
         $content = $jimbo->getView($jimbo->db, $table);
         // defs_path
